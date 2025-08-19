@@ -104,7 +104,7 @@ async def health_check():
 # For Railway deployment
 if __name__ == "__main__":
     import uvicorn
-    port = int(os.getenv("PORT", settings.api_port))
+    port = int(os.getenv("PORT", 8000))  # Railway sets PORT
     uvicorn.run(
         app, 
         host="0.0.0.0",  # Railway requires 0.0.0.0
