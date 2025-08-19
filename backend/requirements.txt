@@ -18,13 +18,10 @@ redis==5.0.1
 # Object Storage
 cloudinary==1.36.0
 
-# Image Processing & Face Recognition
-opencv-python==4.8.1.78
+# Basic Image Processing (no face recognition yet)
 Pillow==10.1.0
 numpy==1.24.4
-face-recognition==1.3.0
-dlib==19.24.2
-cmake==3.27.7
+opencv-python-headless==4.8.1.78
 
 # Utilities
 python-dotenv==1.0.0
